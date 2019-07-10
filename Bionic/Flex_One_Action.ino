@@ -3,7 +3,7 @@ Servo moter;
 int pos = 0;
 
 void setup() {
-  husnain.attach(9);
+  moter.attach(9);
   Serial.begin(9600);
 }
 
