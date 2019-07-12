@@ -26,7 +26,7 @@ void loop() {
   brightness = map(photoCell, 650, 920, 0, 255); 
 
   //map the reading from knob to the bright intensity of LED
-  intensity = map(knob, 1, 1024, 1, 255);
+  intensity = map(knob, 0, 1024, 0, 255);
 
   //print on serial monitor
   Serial.print(photoCell);
