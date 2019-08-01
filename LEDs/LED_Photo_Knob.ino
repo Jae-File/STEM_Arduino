@@ -39,8 +39,8 @@ void loop() {
   //write the reading from knob to LED
   analogWrite(yellow, intensity);
 
-  //condition, when mapped reading greater than 180, blue light off
-  if (brightness >220) {
+  //condition, when mapped reading greater than 220, blue light off
+  if (brightness > 220) {
     digitalWrite(blue, LOW);
   } 
   //otherwise, blink blue LED
